@@ -101,7 +101,8 @@
 				52E2D86F213335C0000A7CEC /* CLLocationDegrees+Conversions.swift */,
 				52E2D86D2133356D000A7CEC /* UIView+Layout.swift */,
 			);
-			path = Extensions;
+			name = Extensions;
+			path = Sources/ARCompass/Extensions;
 			sourceTree = "<group>";
 		};
 		537107FC243FCB1175680216407EB351 /* Development Pods */ = {
