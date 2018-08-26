@@ -1,4 +1,4 @@
-module Pods_ARCompassExample {
+framework module Pods_ARCompassExample {
   umbrella header "Pods-ARCompassExample-umbrella.h"
 
   export *

@@ -12,7 +12,7 @@
 		529ECB6721331F3900174216 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529ECB6521331F3900174216 /* Main.storyboard */; };
 		529ECB6921331F3B00174216 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 529ECB6821331F3B00174216 /* Assets.xcassets */; };
 		529ECB6C21331F3B00174216 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529ECB6A21331F3B00174216 /* LaunchScreen.storyboard */; };
-		7E4BD72B80E8506EE0A89482 /* libPods-ARCompassExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 932F129CA215957C9357FDEF /* libPods-ARCompassExample.a */; };
+		9DEAB129EA729FB8683CEF2A /* Pods_ARCompassExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 599BDC46A28E0D015115FA82 /* Pods_ARCompassExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,8 +37,8 @@
 		529ECB6821331F3B00174216 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		529ECB6B21331F3B00174216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		529ECB6D21331F3B00174216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		599BDC46A28E0D015115FA82 /* Pods_ARCompassExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARCompassExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6803FEDCF356962090E48883 /* Pods-ARCompassExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCompassExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARCompassExample/Pods-ARCompassExample.debug.xcconfig"; sourceTree = "<group>"; };
-		932F129CA215957C9357FDEF /* libPods-ARCompassExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ARCompassExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E4BD72B80E8506EE0A89482 /* libPods-ARCompassExample.a in Frameworks */,
+				9DEAB129EA729FB8683CEF2A /* Pods_ARCompassExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +61,7 @@
 				D4E1D5B8A291408B7F1AD924 /* Pods */,
 				B0E30BC0C35D2AFB05B1DF51 /* Frameworks */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
 		};
 		529ECB5F21331F3900174216 /* Products */ = {
@@ -87,7 +88,7 @@
 		B0E30BC0C35D2AFB05B1DF51 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				932F129CA215957C9357FDEF /* libPods-ARCompassExample.a */,
+				599BDC46A28E0D015115FA82 /* Pods_ARCompassExample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -113,6 +114,7 @@
 				529ECB5B21331F3900174216 /* Frameworks */,
 				529ECB5C21331F3900174216 /* Resources */,
 				529ECB8A2133232800174216 /* Embed Frameworks */,
+				3A2EC81C6A7303204CD4265C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,6 +172,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3A2EC81C6A7303204CD4265C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ARCompassExample/Pods-ARCompassExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ARCompass/ARCompass.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ARCompass.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARCompassExample/Pods-ARCompassExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		DF408DF1C9719A8338F4103D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

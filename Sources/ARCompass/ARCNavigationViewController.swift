@@ -5,14 +5,13 @@
 //  Created by Paolo Di Lorenzo on 8/26/18.
 //
 
-import UIKit
 import MapKit
 
-public protocol ARCViewControllerDelegate: class {
-  func didDismiss(_ viewController: ARCViewController)
+public protocol ARCNavigationViewControllerDelegate: class {
+  func didDismiss(_ viewController: ARCNavigationViewController)
 }
 
-public class ARCViewController: UIViewController {
+public class ARCNavigationViewController: UIViewController {
   
   private struct LocalConstants {
     static let padding: CGFloat = 16
@@ -21,17 +20,17 @@ public class ARCViewController: UIViewController {
   
   // MARK: - Properties
   
-  public weak var delegate: ARCViewControllerDelegate?
+  public weak var delegate: ARCNavigationViewControllerDelegate?
   
   var destination: ARCDestination
   var route: MKRoute
   var routeColor: UIColor
   
-  var routeNodes: [ARCLocationNode]?
+//  var routeNodes: [ARCLocationNode]?
   
   // MARK: - Subviews
   
-  let locationSceneView = ARCLocationSceneView()
+  let locationSceneView = UIView() // ARCLocationSceneView()
   
   let closeButton: UIButton = {
     let button = UIButton()
@@ -105,7 +104,7 @@ public class ARCViewController: UIViewController {
     super.viewWillAppear(animated)
     UIApplication.shared.isIdleTimerDisabled = true
     
-    locationSceneView.run()
+//    locationSceneView.run()
     
     //    let pinLocation = CLLocation(latitude: destination.latitude, longitude: destination.longitude)
     //    let pinLocationNode = ARCLocationAnnotationNode(location: pinLocation, image: #imageLiteral(resourceName: "ar-map-pin"))
@@ -118,7 +117,7 @@ public class ARCViewController: UIViewController {
     super.viewWillDisappear(animated)
     UIApplication.shared.isIdleTimerDisabled = false
     
-    locationSceneView.pause()
+//    locationSceneView.pause()
   }
   
   // MARK: - Targets

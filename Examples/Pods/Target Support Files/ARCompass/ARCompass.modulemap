@@ -1,4 +1,4 @@
-module ARCompass {
+framework module ARCompass {
   umbrella header "ARCompass-umbrella.h"
 
   export *
