@@ -1,0 +1,6 @@
+module ARCompass {
+  umbrella header "ARCompass-umbrella.h"
+
+  export *
+  module * { export * }
+}

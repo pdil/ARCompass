@@ -1,0 +1,16 @@
+PODS:
+  - ARCompass (0.0.1)
+
+DEPENDENCIES:
+  - ARCompass (from `../`)
+
+EXTERNAL SOURCES:
+  ARCompass:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ARCompass: 69de2e88a910578f70e0b85e00fd3fa0c37d674d
+
+PODFILE CHECKSUM: c5bce6f76566f764bdf671c2e0aaa47824f0ad29
+
+COCOAPODS: 1.5.3

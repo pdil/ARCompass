@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		529ECBA321332B3F00174216 /* ARCNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529ECBA221332B3F00174216 /* ARCNavigationViewController.swift */; };
 		OBJ_22 /* ARCompass.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* ARCompass.swift */; };
 		OBJ_29 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_40 /* ARCompassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* ARCompassTests.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		529ECBA221332B3F00174216 /* ARCNavigationViewController.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = ARCNavigationViewController.swift; sourceTree = "<group>"; };
 		"ARCompass::ARCompass::Product" /* ARCompass.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ARCompass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"ARCompass::ARCompassTests::Product" /* ARCompassTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = ARCompassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_12 /* ARCompassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCompassTests.swift; sourceTree = "<group>"; };
@@ -100,7 +102,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -108,7 +110,7 @@
 				OBJ_10 /* Tests */,
 				OBJ_14 /* Products */,
 			);
-			name = "";
+			indentWidth = 2;
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_9 /* ARCompass.swift */,
+				529ECBA221332B3F00174216 /* ARCNavigationViewController.swift */,
 			);
 			name = ARCompass;
 			path = Sources/ARCompass;
@@ -193,7 +196,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_14 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -212,6 +215,7 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_22 /* ARCompass.swift in Sources */,
+				529ECBA321332B3F00174216 /* ARCNavigationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

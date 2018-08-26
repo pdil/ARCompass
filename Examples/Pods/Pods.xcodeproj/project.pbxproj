@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0498F65CAA321F6EE309B46D4DCC2212 /* ARCompass-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D714CECC4818BAB59C25B7564DE9F3E /* ARCompass-dummy.m */; };
+		0A84506A5EE905DBEEEDC8AC1BA3A76E /* Pods-ARCompassExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7480A5B0FD43B29D330A888DE2CAA037 /* Pods-ARCompassExample-dummy.m */; };
+		20E915BDE93BEED6AEBFB0B7F5183118 /* Pods-ARCompassExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7824DA72FD0A4D84A2FFBCD384F3F4C4 /* Pods-ARCompassExample-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2A7B8EB834930A3D36550E977F7CEBAC /* ARCNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4D4F68CB80F01B6A058F7AEF674EBC /* ARCNavigationViewController.swift */; };
+		9527378828BBAC10B11C0B56B1231C22 /* ARCompass-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B8AA2A364B733E406A0CA221D3DCF9D /* ARCompass-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F15CFBC1F574B48F0252A2AD6CC410CF /* ARCompass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B106A820C545965A2730C53B634139 /* ARCompass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E122D836100B87CD1A1A1A0B2B3AFD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D7A187F7FDC2A1A9156E8D705C7BA13;
+			remoteInfo = ARCompass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		078B6DD23352AA6FF30B82BBBB47E305 /* ARCompass.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ARCompass.xcconfig; sourceTree = "<group>"; };
+		12B106A820C545965A2730C53B634139 /* ARCompass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ARCompass.swift; path = Sources/ARCompass/ARCompass.swift; sourceTree = "<group>"; };
+		20422C5EB496BE97D1D7181F93116BC2 /* ARCompass-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARCompass-prefix.pch"; sourceTree = "<group>"; };
+		2D714CECC4818BAB59C25B7564DE9F3E /* ARCompass-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ARCompass-dummy.m"; sourceTree = "<group>"; };
+		43A7774ECCA4FE9E9540AFF18123B2BA /* Pods-ARCompassExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ARCompassExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		5222AD80AAB2413FE4D73F5E130ED182 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5B8AA2A364B733E406A0CA221D3DCF9D /* ARCompass-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ARCompass-umbrella.h"; path = "../../Headers/Public/ARCompass/ARCompass-umbrella.h"; sourceTree = "<group>"; };
+		7480A5B0FD43B29D330A888DE2CAA037 /* Pods-ARCompassExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ARCompassExample-dummy.m"; sourceTree = "<group>"; };
+		7824DA72FD0A4D84A2FFBCD384F3F4C4 /* Pods-ARCompassExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARCompassExample-umbrella.h"; sourceTree = "<group>"; };
+		83E7255517541E0CE9CB4C78E49A471B /* libPods-ARCompassExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ARCompassExample.a"; path = "libPods-ARCompassExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		945A1C17885FD65B901207167393AD51 /* Pods-ARCompassExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ARCompassExample-resources.sh"; sourceTree = "<group>"; };
+		A948AB4E4DCF4BF647D874E082C7403D /* ARCompass.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ARCompass.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A97F7D1FBD1D1A66ABD6C998BD5C22B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AF74B0166FD5FFBCF2C08A5A3CD64C8B /* Pods-ARCompassExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARCompassExample.release.xcconfig"; sourceTree = "<group>"; };
+		B14ADBFC8B9806B50A3D0AD464CC7265 /* Pods-ARCompassExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ARCompassExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B92CEF12158B425C4201768C21C4E480 /* libARCompass.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libARCompass.a; path = libARCompass.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D800E58FA56C5795C3C95B429983F0B5 /* Pods-ARCompassExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ARCompassExample.modulemap"; sourceTree = "<group>"; };
+		E64BEB49300D04FB8D9F6C4F0D6F2796 /* ARCompass.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = ARCompass.modulemap; path = ../../Headers/Public/ARCompass/ARCompass.modulemap; sourceTree = "<group>"; };
+		F1BB7E05878E123C8B303FEBAE119676 /* Pods-ARCompassExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARCompassExample.debug.xcconfig"; sourceTree = "<group>"; };
+		F22860A5C20C1C4F18CBABC6BCA374EE /* Pods-ARCompassExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ARCompassExample-frameworks.sh"; sourceTree = "<group>"; };
+		FC4D4F68CB80F01B6A058F7AEF674EBC /* ARCNavigationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ARCNavigationViewController.swift; path = Sources/ARCompass/ARCNavigationViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20D926283757E21309A9B2A902B4C8E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62132E13F7D43DF3F663300583B9FC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B4A4C6D5CA8EBC43BA5943CF23F40A4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A948AB4E4DCF4BF647D874E082C7403D /* ARCompass.podspec */,
+				A97F7D1FBD1D1A66ABD6C998BD5C22B3 /* LICENSE */,
+				5222AD80AAB2413FE4D73F5E130ED182 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		537107FC243FCB1175680216407EB351 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A092D967EF0FF12BA584F29A924AAE1A /* ARCompass */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7C34073D78078BD79FF69ADA99637B54 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E64BEB49300D04FB8D9F6C4F0D6F2796 /* ARCompass.modulemap */,
+				078B6DD23352AA6FF30B82BBBB47E305 /* ARCompass.xcconfig */,
+				2D714CECC4818BAB59C25B7564DE9F3E /* ARCompass-dummy.m */,
+				20422C5EB496BE97D1D7181F93116BC2 /* ARCompass-prefix.pch */,
+				5B8AA2A364B733E406A0CA221D3DCF9D /* ARCompass-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Examples/Pods/Target Support Files/ARCompass";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				537107FC243FCB1175680216407EB351 /* Development Pods */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				A3FC08C7C4FB1144BA13C7BF69069153 /* Products */,
+				BD4738313C0834EC6B7220888BB12FB8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A092D967EF0FF12BA584F29A924AAE1A /* ARCompass */ = {
+			isa = PBXGroup;
+			children = (
+				FC4D4F68CB80F01B6A058F7AEF674EBC /* ARCNavigationViewController.swift */,
+				12B106A820C545965A2730C53B634139 /* ARCompass.swift */,
+				0B4A4C6D5CA8EBC43BA5943CF23F40A4 /* Pod */,
+				7C34073D78078BD79FF69ADA99637B54 /* Support Files */,
+			);
+			name = ARCompass;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A3FC08C7C4FB1144BA13C7BF69069153 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B92CEF12158B425C4201768C21C4E480 /* libARCompass.a */,
+				83E7255517541E0CE9CB4C78E49A471B /* libPods-ARCompassExample.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD4738313C0834EC6B7220888BB12FB8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE47F3FFA8FB0B5773CE524C6CC8D9C4 /* Pods-ARCompassExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DE47F3FFA8FB0B5773CE524C6CC8D9C4 /* Pods-ARCompassExample */ = {
+			isa = PBXGroup;
+			children = (
+				D800E58FA56C5795C3C95B429983F0B5 /* Pods-ARCompassExample.modulemap */,
+				B14ADBFC8B9806B50A3D0AD464CC7265 /* Pods-ARCompassExample-acknowledgements.markdown */,
+				43A7774ECCA4FE9E9540AFF18123B2BA /* Pods-ARCompassExample-acknowledgements.plist */,
+				7480A5B0FD43B29D330A888DE2CAA037 /* Pods-ARCompassExample-dummy.m */,
+				F22860A5C20C1C4F18CBABC6BCA374EE /* Pods-ARCompassExample-frameworks.sh */,
+				945A1C17885FD65B901207167393AD51 /* Pods-ARCompassExample-resources.sh */,
+				7824DA72FD0A4D84A2FFBCD384F3F4C4 /* Pods-ARCompassExample-umbrella.h */,
+				F1BB7E05878E123C8B303FEBAE119676 /* Pods-ARCompassExample.debug.xcconfig */,
+				AF74B0166FD5FFBCF2C08A5A3CD64C8B /* Pods-ARCompassExample.release.xcconfig */,
+			);
+			name = "Pods-ARCompassExample";
+			path = "Target Support Files/Pods-ARCompassExample";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6579BD65FC8136CE72AF71AC307A8BA0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E915BDE93BEED6AEBFB0B7F5183118 /* Pods-ARCompassExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		973FC0E033D92C68DF97382AFB0CA645 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9527378828BBAC10B11C0B56B1231C22 /* ARCompass-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9D7A187F7FDC2A1A9156E8D705C7BA13 /* ARCompass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91B6A3EF1C4642CCC24056CD9639DF56 /* Build configuration list for PBXNativeTarget "ARCompass" */;
+			buildPhases = (
+				973FC0E033D92C68DF97382AFB0CA645 /* Headers */,
+				54A62A2720711473BFFA573AEAB976CA /* Sources */,
+				20D926283757E21309A9B2A902B4C8E4 /* Frameworks */,
+				6933577E9561B876D33FDE1AF4071A5D /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARCompass;
+			productName = ARCompass;
+			productReference = B92CEF12158B425C4201768C21C4E480 /* libARCompass.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C9E12EAF77D6667D733B6DC5296D1C73 /* Pods-ARCompassExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB9E314B1037EF636D239D96EC227AE8 /* Build configuration list for PBXNativeTarget "Pods-ARCompassExample" */;
+			buildPhases = (
+				6579BD65FC8136CE72AF71AC307A8BA0 /* Headers */,
+				EDF3FB98CDC9743E973186C4E1FD15E9 /* Sources */,
+				B62132E13F7D43DF3F663300583B9FC2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BF3A1844241AA82217B1B263F004575 /* PBXTargetDependency */,
+			);
+			name = "Pods-ARCompassExample";
+			productName = "Pods-ARCompassExample";
+			productReference = 83E7255517541E0CE9CB4C78E49A471B /* libPods-ARCompassExample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A3FC08C7C4FB1144BA13C7BF69069153 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D7A187F7FDC2A1A9156E8D705C7BA13 /* ARCompass */,
+				C9E12EAF77D6667D733B6DC5296D1C73 /* Pods-ARCompassExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6933577E9561B876D33FDE1AF4071A5D /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/ARCompass/ARCompass.modulemap",
+				"${PODS_ROOT}/Headers/Public/ARCompass/ARCompass-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/ARCompass-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ARCompass/ARCompass.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ARCompass/ARCompass-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54A62A2720711473BFFA573AEAB976CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A7B8EB834930A3D36550E977F7CEBAC /* ARCNavigationViewController.swift in Sources */,
+				0498F65CAA321F6EE309B46D4DCC2212 /* ARCompass-dummy.m in Sources */,
+				F15CFBC1F574B48F0252A2AD6CC410CF /* ARCompass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF3FB98CDC9743E973186C4E1FD15E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A84506A5EE905DBEEEDC8AC1BA3A76E /* Pods-ARCompassExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BF3A1844241AA82217B1B263F004575 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ARCompass;
+			target = 9D7A187F7FDC2A1A9156E8D705C7BA13 /* ARCompass */;
+			targetProxy = 9E122D836100B87CD1A1A1A0B2B3AFD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E6810E608274068A8F96580D2F073EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1BB7E05878E123C8B303FEBAE119676 /* Pods-ARCompassExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ARCompassExample/Pods-ARCompassExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40B45BB3CF3EE4476259302A7FAAD78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		85ED3013A635C27F8B7FAF51362B108C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		92B74D1E7499EC7BE3E56936D68695E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF74B0166FD5FFBCF2C08A5A3CD64C8B /* Pods-ARCompassExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ARCompassExample/Pods-ARCompassExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F68BE4682D80053C4BF4FA96BAFBC42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 078B6DD23352AA6FF30B82BBBB47E305 /* ARCompass.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ARCompass/ARCompass-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = Headers/Public/ARCompass/ARCompass.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ARCompass;
+				PRODUCT_NAME = ARCompass;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC420EC9B6C76E2DA3A45A13B450DFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 078B6DD23352AA6FF30B82BBBB47E305 /* ARCompass.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ARCompass/ARCompass-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = Headers/Public/ARCompass/ARCompass.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ARCompass;
+				PRODUCT_NAME = ARCompass;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85ED3013A635C27F8B7FAF51362B108C /* Debug */,
+				40B45BB3CF3EE4476259302A7FAAD78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91B6A3EF1C4642CCC24056CD9639DF56 /* Build configuration list for PBXNativeTarget "ARCompass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F68BE4682D80053C4BF4FA96BAFBC42 /* Debug */,
+				AC420EC9B6C76E2DA3A45A13B450DFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB9E314B1037EF636D239D96EC227AE8 /* Build configuration list for PBXNativeTarget "Pods-ARCompassExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E6810E608274068A8F96580D2F073EF /* Debug */,
+				92B74D1E7499EC7BE3E56936D68695E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
