@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ARCompass",
+        "repositoryURL": "/Users/paolo/Desktop/iOS/ARCompass",
+        "state": {
+          "branch": null,
+          "revision": "2e840f6e4d136174c3badb54b9d4cc3f1f3a19db",
+          "version": "0.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
