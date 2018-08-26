@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Dependencies::Dependencies"
-               BuildableName = "Dependencies.framework"
-               BlueprintName = "Dependencies"
+               BlueprintIdentifier = "ARCompass::ARCompass"
+               BuildableName = "ARCompass.framework"
+               BlueprintName = "ARCompass"
                ReferencedContainer = "container:Dependencies.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,9 +28,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ARCompass::ARCompass"
-               BuildableName = "ARCompass.framework"
-               BlueprintName = "ARCompass"
+               BlueprintIdentifier = "Dependencies::Dependencies"
+               BuildableName = "Dependencies.framework"
+               BlueprintName = "Dependencies"
                ReferencedContainer = "container:Dependencies.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -59,9 +59,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "Dependencies::Dependencies"
-            BuildableName = "Dependencies.framework"
-            BlueprintName = "Dependencies"
+            BlueprintIdentifier = "ARCompass::ARCompass"
+            BuildableName = "ARCompass.framework"
+            BlueprintName = "ARCompass"
             ReferencedContainer = "container:Dependencies.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

@@ -1,8 +1,8 @@
 
 public struct ARCompass {
-    var text = "Hello, World!"
+    static var text = "Hello, World!"
     
-    public func displayText() {
+    public static func displayText() {
         print(text)
     }
 }

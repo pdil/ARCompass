@@ -10,31 +10,44 @@
 		OBJ_24 /* ARCompass.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* ARCompass.swift */; };
 		OBJ_31 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Package.swift */; };
 		OBJ_37 /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* Dependencies.swift */; };
-		OBJ_39 /* ARCompass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ARCompass::ARCompass::Product /* ARCompass.framework */; };
+		OBJ_39 /* ARCompass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ARCompass::ARCompass::Product" /* ARCompass.framework */; };
 		OBJ_46 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		529ECB9B213328A700174216 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "ARCompass::ARCompass";
+			remoteInfo = ARCompass;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		ARCompass::ARCompass::Product /* ARCompass.framework */ = {isa = PBXFileReference; path = ARCompass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		Dependencies::Dependencies::Product /* Dependencies.framework */ = {isa = PBXFileReference; path = Dependencies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_10 /* ARCompassExample */ = {isa = PBXFileReference; path = ARCompassExample; sourceTree = SOURCE_ROOT; };
-		OBJ_14 /* ARCompass.swift */ = {isa = PBXFileReference; path = ARCompass.swift; sourceTree = "<group>"; };
+		"ARCompass::ARCompass::Product" /* ARCompass.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ARCompass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Dependencies::Dependencies::Product" /* Dependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Dependencies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_14 /* ARCompass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCompass.swift; sourceTree = "<group>"; };
 		OBJ_15 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/paolo/Desktop/iOS/ARCompass/Examples/ARCompassExample/.build/checkouts/ARCompass--540711382252169335/Package.swift"; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		OBJ_8 /* Dependencies.swift */ = {isa = PBXFileReference; path = Dependencies.swift; sourceTree = "<group>"; };
+		OBJ_8 /* Dependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		OBJ_25 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
 			files = (
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 		OBJ_38 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
 			files = (
 				OBJ_39 /* ARCompass.framework in Frameworks */,
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -42,20 +55,18 @@
 		OBJ_11 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_12 /* ARCompass 0.0.1 */,
+				OBJ_12 /* ARCompass 0.0.2 */,
 			);
 			name = Dependencies;
-			path = "";
 			sourceTree = "<group>";
 		};
-		OBJ_12 /* ARCompass 0.0.1 */ = {
+		OBJ_12 /* ARCompass 0.0.2 */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_13 /* ARCompass */,
 				OBJ_15 /* Package.swift */,
 			);
-			name = "ARCompass 0.0.1";
-			path = "";
+			name = "ARCompass 0.0.2";
 			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_13 /* ARCompass */ = {
@@ -70,24 +81,22 @@
 		OBJ_16 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				Dependencies::Dependencies::Product /* Dependencies.framework */,
-				ARCompass::ARCompass::Product /* ARCompass.framework */,
+				"ARCompass::ARCompass::Product" /* ARCompass.framework */,
+				"Dependencies::Dependencies::Product" /* Dependencies.framework */,
 			);
 			name = Products;
-			path = "";
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 = {
+		OBJ_5 /*  */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_9 /* Tests */,
-				OBJ_10 /* ARCompassExample */,
 				OBJ_11 /* Dependencies */,
 				OBJ_16 /* Products */,
 			);
-			path = "";
+			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -104,13 +113,12 @@
 			children = (
 			);
 			name = Tests;
-			path = "";
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ARCompass::ARCompass /* ARCompass */ = {
+		"ARCompass::ARCompass" /* ARCompass */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_20 /* Build configuration list for PBXNativeTarget "ARCompass" */;
 			buildPhases = (
@@ -123,10 +131,10 @@
 			);
 			name = ARCompass;
 			productName = ARCompass;
-			productReference = ARCompass::ARCompass::Product /* ARCompass.framework */;
+			productReference = "ARCompass::ARCompass::Product" /* ARCompass.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		ARCompass::SwiftPMPackageDescription /* ARCompassPackageDescription */ = {
+		"ARCompass::SwiftPMPackageDescription" /* ARCompassPackageDescription */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_27 /* Build configuration list for PBXNativeTarget "ARCompassPackageDescription" */;
 			buildPhases = (
@@ -140,7 +148,7 @@
 			productName = ARCompassPackageDescription;
 			productType = "com.apple.product-type.framework";
 		};
-		Dependencies::Dependencies /* Dependencies */ = {
+		"Dependencies::Dependencies" /* Dependencies */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_33 /* Build configuration list for PBXNativeTarget "Dependencies" */;
 			buildPhases = (
@@ -154,10 +162,10 @@
 			);
 			name = Dependencies;
 			productName = Dependencies;
-			productReference = Dependencies::Dependencies::Product /* Dependencies.framework */;
+			productReference = "Dependencies::Dependencies::Product" /* Dependencies.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		Dependencies::SwiftPMPackageDescription /* DependenciesPackageDescription */ = {
+		"Dependencies::SwiftPMPackageDescription" /* DependenciesPackageDescription */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_42 /* Build configuration list for PBXNativeTarget "DependenciesPackageDescription" */;
 			buildPhases = (
@@ -186,14 +194,15 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5;
+			mainGroup = OBJ_5 /*  */;
 			productRefGroup = OBJ_16 /* Products */;
-			projectDirPath = .;
+			projectDirPath = "";
+			projectRoot = "";
 			targets = (
-				ARCompass::ARCompass /* ARCompass */,
-				ARCompass::SwiftPMPackageDescription /* ARCompassPackageDescription */,
-				Dependencies::Dependencies /* Dependencies */,
-				Dependencies::SwiftPMPackageDescription /* DependenciesPackageDescription */,
+				"ARCompass::ARCompass" /* ARCompass */,
+				"ARCompass::SwiftPMPackageDescription" /* ARCompassPackageDescription */,
+				"Dependencies::Dependencies" /* Dependencies */,
+				"Dependencies::SwiftPMPackageDescription" /* DependenciesPackageDescription */,
 			);
 		};
 /* End PBXProject section */
@@ -201,34 +210,43 @@
 /* Begin PBXSourcesBuildPhase section */
 		OBJ_23 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
 			files = (
 				OBJ_24 /* ARCompass.swift in Sources */,
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 		OBJ_30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
 			files = (
 				OBJ_31 /* Package.swift in Sources */,
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 		OBJ_36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
 			files = (
 				OBJ_37 /* Dependencies.swift in Sources */,
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 		OBJ_45 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
 			files = (
 				OBJ_46 /* Package.swift in Sources */,
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		OBJ_40 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ARCompass::ARCompass /* ARCompass */;
+			target = "ARCompass::ARCompass" /* ARCompass */;
+			targetProxy = 529ECB9B213328A700174216 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
