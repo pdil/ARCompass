@@ -35,6 +35,7 @@ class ViewController: UIViewController {
       guard let userLocationCoordinate = mapView?.userLocation.coordinate else { return }
       guard let currentAnnotationCoordinate = currentAnnotationCoordinate else { return }
       
+      currentAnnotation = MKPointAnnotation()
       currentAnnotation?.coordinate = currentAnnotationCoordinate
       
       let request = MKDirections.Request()
@@ -131,8 +132,8 @@ extension ViewController: MKMapViewDelegate {
   func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
     let renderer = MKPolylineRenderer(overlay: overlay)
     
-    renderer.strokeColor = .purple
-    renderer.lineWidth = 4
+    renderer.strokeColor = UIColor.red.withAlphaComponent(0.5)
+    renderer.lineWidth = 5
     
     return renderer
   }
