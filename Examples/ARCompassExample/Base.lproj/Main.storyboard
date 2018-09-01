@@ -23,16 +23,34 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="wGn-Ln-xEX"/>
                                 </connections>
                             </mapView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lD5-Aa-TQE">
-                                <rect key="frame" x="137" y="617" width="100" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Navigate in AR"/>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lD5-Aa-TQE">
+                                <rect key="frame" x="77.5" y="575" width="220" height="72"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="0.75" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="72" id="9Ku-DX-Dxs"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="220" id="iXO-V8-ir7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <inset key="titleEdgeInsets" minX="8" minY="8" maxX="0.0" maxY="8"/>
+                                <state key="normal" title="Navigate in AR">
+                                    <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="24"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="navigateInAR:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eXu-cY-Hh4"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="lD5-Aa-TQE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GHf-H6-gBk"/>
                             <constraint firstItem="Yox-Jf-nDW" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="OgK-Nd-hEA"/>
                             <constraint firstItem="Yox-Jf-nDW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Xxi-9u-We2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lD5-Aa-TQE" secondAttribute="bottom" constant="20" id="r1G-06-LU4"/>
                             <constraint firstItem="Yox-Jf-nDW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="rcY-Or-x3b"/>
                             <constraint firstItem="Yox-Jf-nDW" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="zd0-u9-Uv7"/>
                         </constraints>
@@ -41,6 +59,7 @@
                     <navigationItem key="navigationItem" title="ARCompass Example" prompt="Tap and hold on the map to navigate to a location in AR!" id="mib-kO-Doq"/>
                     <connections>
                         <outlet property="mapView" destination="Yox-Jf-nDW" id="AwS-V7-s1R"/>
+                        <outlet property="navigateButton" destination="lD5-Aa-TQE" id="McH-0a-BIi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

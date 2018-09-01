@@ -16,6 +16,7 @@ class ViewController: UIViewController {
   // MARK: - Outlets
   
   @IBOutlet var mapView: MKMapView?
+  @IBOutlet var navigateButton: UIButton?
   
   // MARK: - Properties
   
@@ -59,8 +60,13 @@ class ViewController: UIViewController {
   
   private var currentRoute: MKRoute? {
     didSet {
-      guard let currentRoute = currentRoute else { return }
-      self.mapView?.addOverlay(currentRoute.polyline)
+      guard let currentRoute = currentRoute else {
+        navigateButton?.isHidden = true
+        return
+      }
+      
+      mapView?.addOverlay(currentRoute.polyline)
+      navigateButton?.isHidden = false
     }
   }
   
@@ -89,6 +95,20 @@ class ViewController: UIViewController {
   }
   
   // MARK: - Targets
+  
+  @IBAction func navigateInAR(_ sender: Any? = nil) {
+    guard let selectedCoordinate = currentAnnotationCoordinate else {
+      return
+    }
+    guard let selectedRoute = currentRoute else {
+      return
+    }
+    
+    let destination = ARCDestination(annotationTitle: "Test", annotationSubtitle: "Test (sub)", longitude: selectedCoordinate.longitude, latitude: selectedCoordinate.latitude)
+    
+    let arNavigationController = ARCNavigationViewController(destination: destination, route: selectedRoute, routeColor: .red)
+    present(arNavigationController, animated: false, completion: nil)
+  }
   
   @objc private func mapViewPressed(_ recognizer: UILongPressGestureRecognizer) {
     guard let mapView = recognizer.view as? MKMapView else { return }
